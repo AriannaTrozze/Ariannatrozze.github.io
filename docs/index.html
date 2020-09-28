@@ -16,15 +16,13 @@ var nextPages = [
 	"cv",
 	"contact",
 ];
-
-$('.container').infiniteScroll({
-  path: function() {
+	  </script>
+	  <div class = "container" data-infinite-scroll='{ "path": <script>function() {
     return '//' + nextPages[ this.loadCount ] + '.html';
   },
   scrollthreshold: 100
-});
-    </script>
-    <div class = "container">
+);></script>
+
   <div class = "heading"><h3>ARIANNA TROZZE</h3>
     <p><a href = "#about">about</a> / 
       <a href = "#researchAndProjects">research + projects</a> / 
