@@ -365,7 +365,7 @@ hr {
 
 footer {
   background-color: black;
-  height: 200px;
+  height: 300px;
 }
 
 .foot h3 {
@@ -374,6 +374,7 @@ footer {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
+  padding-top: 40px;
   font-stretched: ultra-condensed;
 }
 
