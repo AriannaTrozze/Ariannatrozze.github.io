@@ -1,4 +1,4 @@
-head {
+#head {
   background-color: black;
   height: 0px;
 }
@@ -260,6 +260,24 @@ hr {
   text-decoration: none;
 }
 
+.cv img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.cv hr {
+  display: block;
+  border-width: 5px;
+  color: gray;
+  border-style: solid;
+  padding-top: -20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
 /*Section 4*/
 .columnRightFour {
   float: right;
@@ -319,12 +337,12 @@ hr {
   text-decoration: none;
 }
 
-.foot {
+#footer {
   background-color: black;
   height: 300px;
 }
 
-.foot h3 {
+#footer h3 {
   ont-family: "Roboto Condensed", sans-serif;
   color: white;
   text-align: center;
@@ -334,7 +352,7 @@ hr {
   font-stretched: ultra-condensed
 }
 
-.foot p {
+#footer p {
   font-family: courier new;
   color: white;
   text-align: center;
@@ -343,34 +361,17 @@ hr {
   padding-bottom: 100px;
 }
 
-.foot a:link {
+#footer a:link {
   color: white;
   text-decoration: none;
 }
 
-.foot a:visited {
+#footer a:visited {
   color: white;
   text-decoration: none;
 }
 
-.foot a:active {
+#footer a:active {
   color: white;
   text-decoration: none;
-}
-
-.cv {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.cv hr {
-  display: block;
-  border-width: 5px;
-  color: gray;
-  border-style: solid;
-  padding-top: -10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
