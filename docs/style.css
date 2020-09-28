@@ -97,7 +97,7 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  margin-top: 300px;
+  padding-top: 300px;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -164,7 +164,7 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  margin-top: 300px;
+  padding-top: 300px;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
