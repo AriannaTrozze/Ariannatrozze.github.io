@@ -305,7 +305,18 @@ hr {
   font-size: 18px;
 }
 
-.columnLeftFour p {
+.columnLeftFour p1 {
+   font-family: courier new;
+  background-color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  color: white;
+  text-align: left;
+  font-size: 17px;
+}
+
+.columnLeftFour p2 {
    font-family: courier new;
   background-color: black;
   padding-left: 40px;
@@ -359,20 +370,19 @@ hr {
 
 footer {
   background-color: black;
-  padding-top: 40px;
 }
 
-footer h3 {
+.foot h3 {
   font-family: "Roboto Condensed", sans-serif;
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 40px;
   font-size: 20px;
   font-weight: 400;
   font-stretched: ultra-condensed
 }
 
-footer p {
+.foot p {
   font-family: courier new;
   color: white;
   text-align: center;
@@ -381,17 +391,17 @@ footer p {
   padding-bottom: 100px;
 }
 
-footer a:link {
+.foot a:link {
   color: white;
   text-decoration: none;
 }
 
-footer a:visited {
+.foot a:visited {
   color: white;
   text-decoration: none;
 }
 
-footer a:active {
+.foot a:active {
   color: white;
   text-decoration: none;
 }
