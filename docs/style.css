@@ -275,14 +275,14 @@ hr {
 .columnRightFour {
   float: right;
   width: 50%;
-  height: 500px;
+  height: 300px;
   background-color: white;
 }
 
 .columnLeftFour {
   float: left;
   width: 50%;
-  height: 500px;
+  height: 300px;
   background-color: black;
 }
 
