@@ -1,3 +1,7 @@
+body { 
+  background-color: black;
+}
+
 head {
   background-color: black;
   height: 0px;
@@ -361,14 +365,13 @@ hr {
 
 footer {
   background-color: black;
-  height: 100px;
+  height: 200px;
 }
 
 .foot h3 {
   font-family: "Roboto Condensed", sans-serif;
   color: white;
   text-align: center;
-  padding-top: 40px;
   font-size: 20px;
   font-weight: 400;
   font-stretched: ultra-condensed;
