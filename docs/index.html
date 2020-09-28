@@ -8,20 +8,19 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	  <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
-	  <script>
-var nextPages = [
-	"researchAndProjects",
-	"cv",
-	"contact",
-];
-	  </script>
-	  <div class = "container" data-infinite-scroll='{ "path": <script>function() {
-    return '//' + nextPages[ this.loadCount ] + '.html';
-  },
-  scrollthreshold: 100
-);></script>
+     
+	  <div id="scrollbox">
+        <a href = /researchAndProjects.html>
+    </div>
+	  
+	  <script type="text/javascript">
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= $(document).height() - $(window).height() - 20) {
+        var box = $("#scrollbox");
+    box.html(box.html() + "<br /><br /><br /><br /><br /><br /><br />");
+        }
+});
+</script>
 
   <div class = "heading"><h3>ARIANNA TROZZE</h3>
     <p><a href = "#about">about</a> / 
@@ -56,7 +55,7 @@ work</i>  PROFESSIONAL EXPERIENCE</h3>
         <p>During and following my master’s degree, I worked for the United Nations International Telecommunications Union in Geneva, focusing on digital inclusion initiatives and policies. After working in international policy for approximately a year, I found myself more interested in the enforcement arena and joined an international litigation firm.</p><p>As a legal analyst, I assisted lawyers on government enforcement defence and international judgment enforcement matters. I later joined the company’s corporate strategy department as the product manager for their internal investigations and monitorships and asset forfeiture defence offerings. My roles at this company sparked my deep academic interest in financial crime and money laundering research.</p>
     </div>
       </a>
-	    </div>
+	   
     <hr>
 
 </html>
