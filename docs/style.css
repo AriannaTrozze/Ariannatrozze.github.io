@@ -264,13 +264,13 @@ hr {
 .columnRightFour {
   float: right;
   width: 50%;
-  height: 200px;
+  height: 1200px;
 }
 
 .columnLeftFour {
   float: left;
   width: 50%;
-  height: 775px;
+  height: 200px;
   background-color: black;
 }
 
@@ -332,7 +332,7 @@ columnRightFour a:active {
   font-stretched: ultra-condensed
 }
 
-.foot p{
+.foot p {
   font-family: courier new;
   color: white;
   text-align: center;
