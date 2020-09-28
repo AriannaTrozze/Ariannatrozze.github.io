@@ -357,8 +357,10 @@ columnRightFour a:active {
 }
 
 .cv {
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 
 .cv hr {
@@ -366,6 +368,7 @@ columnRightFour a:active {
   border-width: 5px;
   color: gray;
   border-style: solid;
-  margin-top: -10px;
+  padding-top: -10px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
