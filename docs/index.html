@@ -1,41 +1,10 @@
 <!DOCTYPE html>
-
-<html>
 <html>
   <head>
   <meta charset=“UTF-8”>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
-    <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     
-	   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	  <script>
-	
-		  $(document).ready(function() {
-	var win = $(window);
-
-	// Each time the user scrolls
-	win.scroll(function() {
-		// End of the document reached?
-		if ($(document).height() - win.height() == win.scrollTop()) {
-			$('#loading').show();
-
-			$.ajax({
-				url: '/researchAndProjects.html',
-				dataType: 'html',
-				success: function(html) {
-					$('#posts').append(html);
-					$('#loading').hide();
-				}
-				
-			});
-		}
-	});
-});
-		  
-	  </script>
-	  
   <div class = "heading"><h3>ARIANNA TROZZE</h3>
     <p><a href = "#about">about</a> / 
       <a href = "#researchAndProjects">research + projects</a> / 
@@ -69,7 +38,68 @@ work</i>  PROFESSIONAL EXPERIENCE</h3>
         <p>During and following my master’s degree, I worked for the United Nations International Telecommunications Union in Geneva, focusing on digital inclusion initiatives and policies. After working in international policy for approximately a year, I found myself more interested in the enforcement arena and joined an international litigation firm.</p><p>As a legal analyst, I assisted lawyers on government enforcement defence and international judgment enforcement matters. I later joined the company’s corporate strategy department as the product manager for their internal investigations and monitorships and asset forfeiture defence offerings. My roles at this company sparked my deep academic interest in financial crime and money laundering research.</p>
     </div>
       </a>
-	   
     <hr>
-
-</html>
+    <a id = "researchAndProjects">
+      <div class = "row">
+    <div class = "columnRightTwo">
+      <h3>RESEARCH + <br>PROJECTS</h3>
+     <p><a href = "#about">about</a> / 
+      <a href = "#researchAndProjects">research + projects</a> / 
+      <a href = "#cv">cv</a> /
+      <a href = "#contact">contact</a>
+      </p></div>
+    <div class = "about">
+    <div class = "columnLeftTwo">
+      <h3><i class = "material-icons">
+insert_chart_outlined</i> PHD RESEARCH</h3>
+     <p>My PhD research involves detecting and prosecuting financial crime involving cryptocurrencies. My project will adapt data science-based fraudulent transaction detection methods used in traditional financial services to the cryptocurrency market and demonstrate how they can be used to effectively prosecute financial crimes involving cryptocurrencies.</p> 
+      <p>The results of this project will provide a roadmap for prosecution of these offences, as well as an empirical basis for policymakers to develop evidence-based legislation surrounding digital currencies worldwide. It will also enable innovation, facilitating the entry of conventional financial services companies into the cryptocurrency arena by providing a method for conducting due diligence on these transactions in the absence of accepted anti-money laundering processes.</p>
+      <p>I recently completed a study on explaining prosecution outcomes in cryptocurrency-based financial crime cases in U.S. federal courts.
+      </p>
+      <h3><i class = "material-icons">
+verified_user</i> CONSENT TOKEN</h3>
+      <p>I currently serve as Crypto Advisor for Consent Token, a product which radically improves the efficiency of digital background verification. The Consent Token is a new token built on the Ethereum blockchain that can be exchanged between organisations issuing claims, users who hold the claims, and organisations that verify claims.
+      </p>
+      <p> The token can be used to obtain a variety of consent-based services on the Consent platform. The utility of the token is based on user’s consent to store, share and transfer verified credentials. For more information see here.
+      </p>
+    </div>
+    </a>
+        <hr>
+        <div class = "columnThree">
+      <h3>CURRICULUM<br>VITAE</h3>
+     <p><a href = "#about">about</a> / 
+      <a href = "#researchAndProjects">research + projects</a> / 
+      <a href = "#cv">cv</a> /
+      <a href = "#contact">contact</a>
+      </p></div>
+        <hr>
+        <a id = "cv">
+          <div id = cv2>
+            <iframe src="/cv2.pdf" height = "100%" width = "100%">
+          </div>
+        </a>
+          <hr>
+         <a id = "contact">
+           <div class = "columnRightFour"><h3>GET IN TOUCH</h3>
+             <p><a href = #about>about</a> /  <a href = "#researchAndProjects">research + projects</a> / 
+      <a href = "#cv">cv</a> /
+               <a href = "#contact">contact</a></p>
+           </div>
+          </a>
+     <div class = "columnLeftFour">
+       <p>If you're interested in working with me on a research or consulting project, please get in touch with me.</p>
+  <p>I'm interested in projects involving financial crime, cryptocurrencies, and more general data science projects.</p>
+  <p>Shropshire House<br>
+11- 20 capper street<br> 
+    London WC1E 6JA</p>
+       <p><a href = mailto:arianna.trozze@ucl.ac.uk>Email me</a></p>
+          </div>
+          <div class = "foot"><h3>&#169; 2020 ARIANNA TROZZE</h3>
+             <p><a href = "#about">about</a> / 
+      <a href = "#researchAndProjects">research + projects</a> / 
+      <a href = "#cv">cv</a> /
+      <a href = "#contact">contact</a>
+            </p>
+          </div>
+    </body>
+     </html>
