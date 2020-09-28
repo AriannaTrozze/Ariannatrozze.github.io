@@ -321,6 +321,8 @@ hr {
   background-color: black;
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   color: white;
   text-align: left;
   font-size: 17px;
@@ -353,17 +355,17 @@ hr {
   text-decoration: none;
 }
 
-.columnLeftFour a:link {
+.columnLeftFourA a:link {
    color: white;
   text-decoration: none;
 }
 
-.columnLeftFour a:visited {
+.columnLeftFourA a:visited {
   color: white;
   text-decoration: none;
 }
 
-.columnLeftFour a:active {
+.columnLeftFourA a:active {
   color: white;
   text-decoration: none;
 }
