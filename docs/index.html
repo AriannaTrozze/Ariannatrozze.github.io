@@ -9,19 +9,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
      
-	  <div id="scrollbox">
-        <a href = /researchAndProjects.html>
-    </div>
-	  
-	  <script type="text/javascript">
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= $(document).height() - $(window).height() - 20) {
-        var box = $("#scrollbox");
-    box.html(box.html() + "<br /><br /><br /><br /><br /><br /><br />");
-        }
-});
-</script>
+	   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script>
+	
+		  $(document).ready(function() {
+	var win = $(window);
 
+	// Each time the user scrolls
+	win.scroll(function() {
+		// End of the document reached?
+		if ($(document).height() - win.height() == win.scrollTop()) {
+			$('#loading').show();
+
+			$.ajax({
+				url: '/researchAndProjects.html',
+				dataType: 'html',
+				success: function(html) {
+					$('#posts').append(html);
+					$('#loading').hide();
+				}
+				
+			});
+		}
+	});
+});
+		  
+	  </script>
+	  
   <div class = "heading"><h3>ARIANNA TROZZE</h3>
     <p><a href = "#about">about</a> / 
       <a href = "#researchAndProjects">research + projects</a> / 
