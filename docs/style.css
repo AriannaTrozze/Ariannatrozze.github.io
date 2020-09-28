@@ -181,6 +181,7 @@ hr {
   font-family: courier new;
   background-color: black;
   padding-left: 40px;
+  padding-right: 40px;
   color: white;
   text-align: left;
   font-size: 17px;
@@ -309,10 +310,20 @@ hr {
   background-color: black;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 40px;
   color: white;
   text-align: left;
   font-size: 17px;
+}
+
+.columnLeftFour h3 {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 400;
+  font-stretched: ultra-condensed;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .columnRightFour a:link {
@@ -348,6 +359,7 @@ hr {
 
 footer {
   background-color: black;
+  padding-top: 40px;
 }
 
 footer h3 {
