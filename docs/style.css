@@ -97,7 +97,7 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 400px;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -109,6 +109,7 @@ hr {
   text-align: center;
   font-stretched: expanded;
   font-size: 18px;
+  padding-bottom: 400px;
 }
 
 .columnRight h3 {
@@ -275,14 +276,14 @@ hr {
 .columnRightFour {
   float: right;
   width: 50%;
-  height: 350px;
+  height: 400px;
   background-color: white;
 }
 
 .columnLeftFour {
   float: left;
   width: 50%;
-  height: 350px;
+  height: 400px;
   background-color: black;
 }
 
