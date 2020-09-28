@@ -328,7 +328,7 @@ hr {
   font-size: 17px;
 }
 
-.columnLeftFourA h3 {
+.columnLeftFour h3 {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   text-align: left;
@@ -355,17 +355,17 @@ hr {
   text-decoration: none;
 }
 
-.columnLeftFourA a:link {
+.columnLeftFour a:link {
    color: white;
   text-decoration: none;
 }
 
-.columnLeftFourA a:visited {
+.columnLeftFour a:visited {
   color: white;
   text-decoration: none;
 }
 
-.columnLeftFourA a:active {
+.columnLeftFour a:active {
   color: white;
   text-decoration: none;
 }
