@@ -305,7 +305,7 @@ hr {
   font-size: 18px;
 }
 
-.columnLeftFour p1 {
+.columnLeftFour p {
    font-family: courier new;
   background-color: black;
   padding-left: 40px;
@@ -316,7 +316,7 @@ hr {
   font-size: 17px;
 }
 
-.columnLeftFour p2 {
+.columnLeftFourA p {
    font-family: courier new;
   background-color: black;
   padding-left: 40px;
@@ -326,7 +326,7 @@ hr {
   font-size: 17px;
 }
 
-.columnLeftFour h3 {
+.columnLeftFourA h3 {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   text-align: left;
