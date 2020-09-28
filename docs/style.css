@@ -27,7 +27,7 @@ head {
   padding-top: 100px;
   font-size: 40px;
   font-weight: 400;
-  font-stretched: ultra-          condensed;
+  font-stretched: ultra-condensed;
 }
 
 .heading p {
@@ -100,7 +100,7 @@ hr {
   padding-top: 100px;
   font-size: 28px;
   font-weight: 400;
-  font-stretched: ultra-          condensed;
+  font-stretched: ultra-condensed;
 }
 .columnLeft p {
   font-family: courier new;
@@ -118,7 +118,7 @@ hr {
   font-size: 28px;
   font-weight: 400;
   margin-left: 120px;
-  font-stretched: ultra-          condensed;
+  font-stretched: ultra-condensed;
 }
 
 .columnRight p {
@@ -167,7 +167,7 @@ hr {
   padding-top: 100px;
   font-size: 28px;
   font-weight: 400;
-  font-stretched: ultra-          condensed;
+  font-stretched: ultra-condensed;
 }
 .columnRightTwo p {
   font-family: courier new;
@@ -211,7 +211,7 @@ hr {
   text-align: left;
   font-size: 28px;
   font-weight: 400;
-  font-stretched: ultra-          condensed;
+  font-stretched: ultra-condensed;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -233,7 +233,7 @@ hr {
   padding-top: 40px;
   font-size: 28px;
   font-weight: 400;
-  font-stretched: ultra-          condensed;
+  font-stretched: ultra-condensed;
 }
 
 .columnThree p {
@@ -313,7 +313,7 @@ hr {
   text-decoration: none;
 }
 
-columnRightFour a:active {
+.columnRightFour a:active {
   color: black;
   text-decoration: none;
 }
