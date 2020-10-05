@@ -3,6 +3,12 @@ head {
   height: 0px;
 }
 
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .heading img {
   height: 75%;
   position: relative;
@@ -24,7 +30,7 @@ head {
   font-family: "Roboto Condensed", sans-serif;
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10%;
   font-size: 40px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -36,7 +42,7 @@ head {
   text-align: center;
   font-stretched: expanded;
   font-size: 18px;
-  padding-bottom: 100px;
+  padding-bottom: 20%;
 }
 
 .heading a:link {
@@ -62,18 +68,32 @@ hr {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+.row1Container {
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .columnLeft {
+    display: block;
+    width: 100%;
+  }
+}
+
 .columnLeft {
   float: left;
   width: 50%;
-  height: 875px;
   position: relative;
 }
 
 .columnRight {
-  float: right;
+  display: inline-block;
+  float: left;
   width: 50%;
   background-color: black;
-  height: 875px;
   position: relative;
 }
 
@@ -147,17 +167,31 @@ hr {
 }
 
 /*Second Section*/
-.columnRightTwo {
-  float: right;
-  width: 50%;
-  height: 775px;
+
+.row2Container {
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .columnLeftTwo {
+    display: block;
+    width: 100%;
+  }
 }
 
 .columnLeftTwo {
-  float: left;
+  display: inline-block;
+  float: right;
   width: 50%;
-  height: 775px;
   background-color: black;
+}
+
+.columnRightTwo {
+  float: right;
+  width: 50%;
 }
 
 .columnRightTwo h3 {
@@ -220,9 +254,10 @@ hr {
 /*Third section*/
 .columnThree {
    border: 0;
-   height: 200px;
-   left: 40px;
-   right: 40px;
+   height: flex;
+   left: 20%;
+   right: 20%;
+   padding-bottom: 10%;
    width: 100%;
    align: center;
 }
@@ -231,7 +266,7 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10%;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -272,18 +307,32 @@ hr {
 
 
 /*Section 4*/
-.columnRightFour {
-  float: right;
-  width: 50%;
-  height: 450px;
-  background-color: white;
+
+.row4Container {
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .columnLeftFour {
+    display: block;
+    width: 100%;
+  }
 }
 
 .columnLeftFour {
   float: left;
   width: 50%;
-  height: 450px;
+  display: inline-block;
   background-color: black;
+}
+
+.columnRightFour {
+  float: left;
+  width: 50%;
+  background-color: white;
 }
 
 .columnRightFour h3 {
@@ -361,26 +410,26 @@ hr {
 
 footer {
   background-color: black;
-  height: 300px;
+  display: flex;
+  text-align: center;
+  width: 100%;
 }
 
 .foot h3 {
   font-family: "Roboto Condensed", sans-serif;
   color: white;
-  text-align: center;
   font-size: 20px;
   font-weight: 400;
-  padding-top: 40px;
+  padding-top: 15%;
   font-stretched: ultra-condensed;
 }
 
 .foot p {
   font-family: courier new;
   color: white;
-  text-align: center;
   font-stretched: expanded;
   font-size: 18px;
-  padding-bottom: 100px;
+  padding-bottom: 30%;
 }
 
 .foot a:link {
