@@ -96,12 +96,6 @@ hr {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .columnLeft {
-    width: 100%;
-  }
-}
-
 .p1 {
   font-family: courier new;
   background-color: black;
@@ -120,6 +114,7 @@ hr {
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
+  margin-right: 120px
 }
 .columnLeft p {
   font-family: courier new;
@@ -129,6 +124,7 @@ hr {
   font-stretched: expanded;
   font-size: 18px;
   padding-bottom: 10%;
+  margin-right: 120px;
 }
 
 .columnRight h3 {
@@ -149,6 +145,26 @@ hr {
   margin-left: 120px;
   font-size: 17px;
   margin-right: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .columnLeft {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columnLeft p {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columnLeft h3 {
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {
