@@ -63,6 +63,13 @@ hr {
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 600px) {
+  hr {
+    display: none;
+  }
+}
+
+
 .row1Container {
   float: left;
   width: 100%;
@@ -297,24 +304,20 @@ hr {
 
 /*Third section*/
 .columnThree {
+  float: left;
    border: 0;
-   height: flex;
-   left: 20%;
-   right: 20%;
-   padding-top: 10%;
-   padding-bottom: 10%;
    width: 100%;
-   align: center;
+  align-items: center;
 }
 
 .columnThree h3 {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  align-items: center;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
+  padding-top: 5%;
 }
 
 .columnThree p {
@@ -323,7 +326,7 @@ hr {
   text-align: center;
   font-stretched: expanded;
   font-size: 18px;
-  padding-bottom: 0px;
+  padding-bottom: 5%;
 }
 
 .columnThree a:link {
