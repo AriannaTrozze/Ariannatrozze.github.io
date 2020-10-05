@@ -73,8 +73,6 @@ hr {
 .row1Container {
   float: left;
   width: 100%;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .columnLeft {
@@ -215,8 +213,6 @@ hr {
 .row2Container {
   float: left;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .columnLeftTwo {
@@ -361,8 +357,6 @@ hr {
 .row4Container {
   float: left;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .columnLeftFour {
