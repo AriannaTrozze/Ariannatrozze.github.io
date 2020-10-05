@@ -14,7 +14,7 @@ head {
   position: relative;
   z-index: 2;
   display: block;
-  margin-top: -85px;
+  margin-top: -20%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -76,9 +76,14 @@ hr {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .columnLeft {
-    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .columnRight {
     width: 100%;
   }
 }
