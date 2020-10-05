@@ -72,14 +72,16 @@ hr {
 .row1Container {
   float: left;
   width: 100%;
-  display: flex;
+  display: table-row;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .columnLeft {
   float: left;
   width: 50%;
   position: relative;
+  display: table-column;
 }
 
 .columnRight {
@@ -88,17 +90,12 @@ hr {
   width: 50%;
   background-color: black;
   position: relative;
+  display: table-column;
 }
 
-@media (min-width: 500px){
-    .columnLeft {
-        width: 100%;
-}
-}
-
-@media (min-width: 500px) {
-  .columnRight {
-    width: 100%
+@media screen and (max-width: 600px) {
+  .row1Container, .columnLeft, columnRight {
+    display: block;
   }
 }
 
