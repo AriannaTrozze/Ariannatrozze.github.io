@@ -76,22 +76,6 @@ hr {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 600px) {
-  .columnLeft {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .columnRight {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-  }
-}
-
 .columnLeft {
   float: left;
   width: 50%;
@@ -104,6 +88,18 @@ hr {
   width: 50%;
   background-color: black;
   position: relative;
+}
+
+@media (min-width: 500px){
+    .columnLeft {
+        width: 100%;
+}
+}
+
+@media (min-width: 500px) {
+  .columnRight {
+    width: 100%
+  }
 }
 
 .row:after {
@@ -126,7 +122,7 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 20%;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -138,6 +134,7 @@ hr {
   text-align: center;
   font-stretched: expanded;
   font-size: 18px;
+  padding-bottom: 10%;
 }
 
 .columnRight h3 {
@@ -184,19 +181,6 @@ hr {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 600px) {
-  .columnLeftTwo {
-    display: block;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .columnRightTwo {
-    width: 100%;
-  }
-}
-
 .columnLeftTwo {
   display: inline-block;
   float: right;
@@ -209,11 +193,24 @@ hr {
   width: 50%;
 }
 
+@media (min-width: 500px){
+    .columnLeftTwo {
+        width: 100%;
+}
+}
+
+@media (min-width: 500px) {
+  .columnRightTwo {
+    width: 100%
+  }
+}
+
 .columnRightTwo h3 {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  padding-top: 300px;
+  align-items: center;
+  padding-top: 10%;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -223,6 +220,7 @@ hr {
   background-color: white;
   color: black;
   text-align: center;
+  padding-bottom: 10%;
   font-stretched: expanded;
   font-size: 18px;
 }
@@ -272,6 +270,7 @@ hr {
    height: flex;
    left: 20%;
    right: 20%;
+   padding-top: 10%;
    padding-bottom: 10%;
    width: 100%;
    align: center;
@@ -281,7 +280,7 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  padding-top: 10%;
+  align-items: center;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -330,19 +329,6 @@ hr {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 600px) {
-  .columnLeftFour {
-    display: block;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .columnRightFour {
-    width: 100%;
-  }
-}
-
 .columnLeftFour {
   float: left;
   width: 50%;
@@ -356,11 +342,23 @@ hr {
   background-color: white;
 }
 
+@media (min-width: 500px){
+    .columnLeftFour {
+        width: 100%;
+}
+}
+
+@media (min-width: 500px) {
+  .columnRightFour {
+    width: 100%
+  }
+}
+
 .columnRightFour h3 {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10%;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -373,6 +371,7 @@ hr {
   text-align: center;
   font-stretched: expanded;
   font-size: 18px;
+  padding-bottom: 10%;
 }
 
 .columnLeftFour p {
@@ -393,6 +392,7 @@ hr {
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
+  align-items: center;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
@@ -431,8 +431,9 @@ hr {
 
 footer {
   background-color: black;
-  display: flex;
+  display: block;
   text-align: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -450,7 +451,7 @@ footer {
   color: white;
   font-stretched: expanded;
   font-size: 18px;
-  padding-bottom: 30%;
+  padding-bottom: 10%;
 }
 
 .foot a:link {
