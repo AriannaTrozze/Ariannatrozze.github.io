@@ -72,7 +72,6 @@ hr {
 .row1Container {
   float: left;
   width: 100%;
-  display: table-row;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -81,7 +80,6 @@ hr {
   float: left;
   width: 50%;
   position: relative;
-  display: table-column;
 }
 
 .columnRight {
@@ -90,19 +88,18 @@ hr {
   width: 50%;
   background-color: black;
   position: relative;
-  display: table-column;
-}
-
-@media screen and (max-width: 600px) {
-  .row1Container, .columnLeft, columnRight {
-    display: block;
-  }
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .columnLeft {
+    width: 100%;
+  }
 }
 
 .p1 {
@@ -154,6 +151,33 @@ hr {
   margin-right: 40px;
 }
 
+@media screen and (max-width: 600px) {
+  .columnRight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columnRight p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .p1 {
+    margin-left: -5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columnRight h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 .columnLeft a:link {
   color: black;
   text-decoration: none;
@@ -190,13 +214,13 @@ hr {
   width: 50%;
 }
 
-@media (min-width: 500px){
+@media screen and (max-width: 600px){
     .columnLeftTwo {
         width: 100%;
 }
 }
 
-@media (min-width: 500px) {
+@media screen and (max-width: 600px) {
   .columnRightTwo {
     width: 100%
   }
@@ -339,15 +363,15 @@ hr {
   background-color: white;
 }
 
-@media (min-width: 500px){
+@media screen and (max-width: 600px){
     .columnLeftFour {
         width: 100%;
 }
 }
 
-@media (min-width: 500px) {
+@media screen and (max-width: 600px) {
   .columnRightFour {
-    width: 100%
+    width: 100%;
   }
 }
 
