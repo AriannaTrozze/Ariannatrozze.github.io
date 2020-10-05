@@ -3,12 +3,6 @@ head {
   height: 0px;
 }
 
-.headingContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .heading img {
   height: 75%;
   position: relative;
