@@ -231,26 +231,14 @@ hr {
   width: 50%;
 }
 
-@media screen and (max-width: 600px){
-    .columnLeftTwo {
-        width: 100%;
-}
-}
-
-@media screen and (max-width: 600px) {
-  .columnRightTwo {
-    width: 100%
-  }
-}
 
 .columnRightTwo h3 {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  align-items: center;
-  padding-top: 35%;
   font-size: 28px;
   font-weight: 400;
+  padding-top: 35%;
   font-stretched: ultra-condensed;
 }
 .columnRightTwo p {
@@ -258,9 +246,9 @@ hr {
   background-color: white;
   color: black;
   text-align: center;
-  padding-bottom: 40%
   font-stretched: expanded;
   font-size: 18px;
+  padding-bottom: 40%;
 }
 .columnLeftTwo p {
   font-family: courier new;
@@ -270,6 +258,20 @@ hr {
   color: white;
   text-align: left;
   font-size: 17px;
+}
+
+@media screen and (max-width: 600px){
+    .columnLeftTwo {
+        width: 100%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .columnRightTwo {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 }
 
 .columnRightTwo a:link {
