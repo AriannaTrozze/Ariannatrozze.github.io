@@ -248,7 +248,7 @@ hr {
   color: black;
   text-align: center;
   align-items: center;
-  padding-top: 30%;
+  padding-top: 35%;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -258,7 +258,7 @@ hr {
   background-color: white;
   color: black;
   text-align: center;
-  padding-bottom: 30%
+  padding-bottom: 35%
   font-stretched: expanded;
   font-size: 18px;
 }
