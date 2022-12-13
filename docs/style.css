@@ -372,7 +372,7 @@ hr {
 @media screen and (max-width: 600px){
     .columnLeftFour {
         width: 100%;
-        padding-top: 0%;
+        padding-top: 15%;
         padding-bottom: 10%;
 }
 }
@@ -387,7 +387,7 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   text-align: center;
-  padding-top: 0%;
+  padding-top: 15%;
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
@@ -470,7 +470,7 @@ footer {
   color: white;
   font-size: 20px;
   font-weight: 400;
-  padding-top: 0%;
+  padding-top: 15%;
   font-stretched: ultra-condensed;
 }
 
