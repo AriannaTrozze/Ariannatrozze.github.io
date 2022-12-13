@@ -63,7 +63,7 @@ hr {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   hr {
     display: none;
   }
@@ -145,47 +145,47 @@ hr {
   margin-right: 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .columnLeft {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .columnLeft p {
     width: 100%;
     margin-right: 0px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .columnLeft h3 {
     width: 100%;
     margin-right: 0px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .columnRight {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .columnRight p {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .p1 {
     margin-left: -5%;
     margin-right: 5%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .columnRight h3 {
     margin-left: 5%;
     margin-right: 5%;
@@ -254,13 +254,13 @@ hr {
   font-size: 17px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 100%){
     .columnLeftTwo {
         width: 100%;
 }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .columnRightTwo {
     width: 100%;
     padding-top: 5%;
@@ -312,6 +312,7 @@ hr {
   text-align: center;
   font-size: 28px;
   font-weight: 400;
+  padding-top: 10%;
   font-stretched: ultra-condensed;
 }
 
