@@ -152,14 +152,6 @@ hr {
   }
 }
 
-@media (min-width: 1200px){
-  .columnLeft {
-    display:flex;
-  }
-  .columnLeft h3 {
-    display: flex;
-}
-
 @media screen and (max-width: 1000px) {
   .columnLeft h3 {
     width: 100%;
