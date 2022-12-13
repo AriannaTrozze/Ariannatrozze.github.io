@@ -101,6 +101,8 @@ hr {
   text-align: center;
   font-stretched: expanded;
   font-size: 18px;
+  margin-left: -20%;
+  margin-right: 5%;
 }
 .columnLeft h3 {
   font-family: "Roboto Condensed", sans-serif;
@@ -110,6 +112,7 @@ hr {
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
+  margin-right: 20%;
 }
 .columnLeft p {
   font-family: courier new;
@@ -118,6 +121,7 @@ hr {
   text-align: center;
   font-stretched: expanded;
   font-size: 18px;
+  margin-right: 20%;
 }
 
 .columnRight h3 {
@@ -127,6 +131,7 @@ hr {
   font-size: 28px;
   font-weight: 400;
   font-stretched: ultra-condensed;
+  margin-left: 20%;
 }
 
 .columnRight p {
@@ -134,7 +139,9 @@ hr {
   background-color: black;
   color: white;
   text-align: left;
+  margin-left: 20%;
   font-size: 17px;
+  margin-right: 5%;
 }
 
 @media screen and (max-width: 1000px) {
