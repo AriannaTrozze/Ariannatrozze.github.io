@@ -69,7 +69,6 @@ hr {
   }
 }
 
-
 .row1Container {
   float: left;
   width: 100%;
@@ -150,6 +149,12 @@ hr {
     width: 100%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+
+@media (min-width: 1200px){
+  .columnLeft {
+    display:flex;
   }
 }
 
