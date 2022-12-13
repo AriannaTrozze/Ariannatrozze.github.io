@@ -156,6 +156,8 @@ hr {
   .columnLeft {
     display:flex;
   }
+  .columnLeft h3 {
+    padding-top: -40%;
 }
 
 @media screen and (max-width: 1000px) {
