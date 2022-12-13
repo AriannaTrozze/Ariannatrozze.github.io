@@ -148,9 +148,16 @@ hr {
 @media screen and (max-width: 1000px) {
   .columnLeft {
     width: 100%;
-    padding-top: 30%;
+    padding-top: 5%;
     padding-bottom: 5%;
-    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .columnLeft h3 {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
