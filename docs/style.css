@@ -159,17 +159,6 @@ hr {
   .columnLeft h3 {
     display: flex;
 }
-  
-@media (min-width: 2500px){
-  .columnLeft {
-    padding-top: 10%;
-    padding-bottom: 30%;
-  }
-  .columnLeft h3 {
-    display: flex;
-    padding-top: 10%;
-    padding-bottom: 30%;
-}
 
 @media screen and (max-width: 1000px) {
   .columnLeft h3 {
