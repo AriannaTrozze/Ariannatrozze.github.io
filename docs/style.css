@@ -148,7 +148,7 @@ hr {
 @media screen and (max-width: 1000px) {
   .columnLeft {
     width: 100%;
-    padding-top: 5%;
+    padding-top: 15%;
     padding-bottom: 5%;
   }
 }
